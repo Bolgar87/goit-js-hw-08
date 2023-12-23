@@ -1,0 +1,68 @@
+/**
+ * Global styles
+ *
+ * @format
+ */
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* END Global styles */
+
+/* Body */
+.gallery-size {
+  max-width: 1440px;
+}
+
+.gallery-image {
+  transition: transform 0.2s ease;
+}
+
+.gallery {
+  max-width: 1128px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.gallery-image:hover {
+  transform: scale(1.045);
+}
+/* END Body */
